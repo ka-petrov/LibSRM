@@ -2,7 +2,7 @@
 
 A C++ implementation of the statistical region merging [1] algorithm with Python bindings.
 
-I wasn't particularly happy with other Python implementations mainly because of the high execution time for large images so I made this one.
+I wasn't happy with other Python implementations mainly because of the high execution time for large images so I made this one.
 
 Currently only grayscale 8-bit images are supported. Multi-channel support is planned.
 
