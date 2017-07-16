@@ -9,6 +9,14 @@ Currently only grayscale 8-bit images are supported. Multi-channel support is pl
 The implementation is inspired by the ImageJ plugin [2], a substantial part of the code is borrowed from there and ported to C++.
 
 ---
+## Usage tips
+
+To build C++ lib and tests:
+  > cd libsrm && cmake . && make
+
+To use python bindings copy limsrm.so (or .dll for Windows) to ./pysrm. See usage example in srm_test.py.
+
+---
 
 [1] R. Nock, F. Nielsen (2004), "Statistical Region Merging", IEEE Trans. Pattern Anal. Mach. Intell. 26 (11): 1452-1458
 
