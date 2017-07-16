@@ -14,7 +14,7 @@ The implementation is inspired by the ImageJ plugin [2], a substantial part of t
 To build C++ lib and tests:
   > cd libsrm && cmake . && make
 
-To use python bindings copy limsrm.so (or .dll for Windows) to ./pysrm. See usage example in srm_test.py.
+To use python bindings copy libsrm.so (or .dll for Windows) to ./pysrm. See usage example in srm_test.py.
 
 ---
 
