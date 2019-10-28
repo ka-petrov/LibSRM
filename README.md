@@ -6,7 +6,7 @@ I wasn't happy with other Python implementations mainly because of the high exec
 
 Currently only grayscale 8-bit images are supported.
 
-The implementation is inspired by the ImageJ plugin [2], a substantial part of the code is borrowed from there and ported to C++.
+The implementation is basically a C++ port of the code from ImageJ plugin [2].
 
 ---
 ## Usage tips
@@ -20,4 +20,4 @@ To use python bindings copy libsrm.so (or .dll for Windows) to ./pysrm. See usag
 
 [1] R. Nock, F. Nielsen (2004), "Statistical Region Merging", IEEE Trans. Pattern Anal. Mach. Intell. 26 (11): 1452-1458
 
-[2] https://imagej.net/Statistical_Region_Merging
+[2] https://imagej.net/Statistical_Region_Merging ([on Github](https://github.com/fiji/Statistical_Region_Merging))
