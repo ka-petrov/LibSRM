@@ -1,7 +1,14 @@
 import os
 import numpy as np
 from ctypes import cdll, c_float, c_int32, c_ubyte, c_bool, POINTER
-libpath = os.path.join(os.path.dirname(__file__), 'libsrm.so')
+import platform
+
+libext = {
+    'Windows': 'dll',
+    'Linux': 'so',
+    'Darwin': 'dylib'
+}[platform.system()]
+libpath = os.path.join(os.path.dirname(__file__), f'libsrm.{libext}')
 srm_lib = cdll.LoadLibrary(libpath)
 srm_fn = srm_lib.srm_c
 
